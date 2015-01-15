@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="html/css" href="css/stylesheet.css"/>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/memoli2.ioc.png">
+
+
+	<script language="JavaScript1.1">
+	
+	/*
+	JavaScript Image slideshow:
+	*/
+
+ 	var slideimages=new Array()
+	var slidelinks=new Array()
+	function slideshowimages(){
+	for (i=0;i<slideshowimages.arguments.length;i++){
+	slideimages[i]=new Image()
+	slideimages[i].src=slideshowimages.arguments[i]
+	}
+	}
+
+	function slideshowlinks(){
+	for (i=0;i<slideshowlinks.arguments.length;i++)
+	slidelinks[i]=slideshowlinks.arguments[i]
+	}
+
+	function gotoshow(){
+	if (!window.winslide||winslide.closed)
+	winslide=window.open(slidelinks[whichlink])
+	else
+	winslide.location=slidelinks[whichlink]
+	winslide.focus()
+	}
+
+	//-->
+	</script>
+
+	
+<title>What I Do</title>
+</head>
+<body>
+	<div id="wrapper">
+			<div class="head">
+				<img src="images/educating.png" height="305px" width="323px">
+				
+		<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border=0 width=620 height=305></a>
+		<script>
+		<!--
+
+		slideshowimages("images/avill.jpg", "images/lakes.jpg", "images/conference.PNG", "images/upstate.PNG", "images/grad_mom.jpg", "images/lifeSup.jpg", "images/memmom.jpg", "images/re/family.jpg","images/car2.jpg", "images/car.jpg","images/coma1.jpg","images/fly.jpg")
+		var slideshowspeed=2000
+
+		var whichlink=0
+		var whichimage=0
+		function slideit(){
+		if (!document.images)
+		return
+		document.images.slide.src=slideimages[whichimage].src
+		whichlink=whichimage
+		if (whichimage<slideimages.length-1)
+		whichimage++
+		else
+		whichimage=0
+		setTimeout("slideit()",slideshowspeed)
+		}
+		slideit()
+
+		//-->
+		</script>
+				</div>
+				
+					<ul id="menu">
+					 <li><a href="index.html">Home</a></li>
+					 <li><a href="my_life.html">My Story</a></li>
+					 <li><a href="whatIdo.html">What I Do</a></li>
+					 <li><a href="How it affected family.html">How It Affected Family</a></li>
+					 <li><a href="Photos.html">Photos</a></li>
+					 <li><a href="press.html">Press</a></li>
+					 <li><a href="http://www.thechrismemolistory.com">Testimonials</a></li>
+					 <li><a href="Contact.html">Contact</a></li>
+				</ul>
+			
+			<div class="content">
+<div class="contentH">What I do</div>
+
+
+
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;On July 6, 2002, at the age of Seventeen I was involved in a terrible car accident that has altered my life forever. I suffer from Traumatic Brain Injury and have undergone rehabilitation for many years to learn to use my hands and learn to walk again. I never regained my speech back. In conjunction with my family, I created a <span class="red">45 minute presentation</span> that sends a strong message to youths entering the driving age.</p> 
+
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;The fact that I am sitting here and am able to share my story after such a tragic event is truly a blessing. I was the typical trouble-making teenager that lived in the fast lane. I had lost my Dad from Brain Cancer in 1999, two years prior to the accident and was very angry at the world. Nothing really mattered to me in life, and I had no dreams or plans for my future. My life was from day to day. I was going to school, but was I kicked out most of high school, or I was cutting when ever I wasn’t suspended and partying with my friends. </p>
+
+				<p> &nbsp;&nbsp;&nbsp;&nbsp;The night before the accident, I went to a keg party. My friends and I partied all night. Early the next morning, we decided to go for some bagels. A couple of my friends jumped in one car and I hopped in another car with a girl I had just met the night before. As we were driving and racing with the other car, the girl lost control driving the car I was in and flipped into a ditch. I was NOT wearing a seatbelt so I flipped around like a beach ball. When the paramedics arrived they had to intubate me. This means that they had to place a flexible plastic tube down my windpipe in order to maintain an open airway for me to breathe. This moment was the beginning of a very long, tough road for my family and I. My life was changed forever. </p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;The doctors told my Mom that I would probably never walk or even be the same person because of the Traumatic Brain Injury. I had spent over a year in the hospital going to physical, speech, and occupational therapy. While in the hospital I was tutored so that I was able to graduate high school with my class. After I was able to live home I continued to go for therapy for over two years. I had gone to Suffolk Community College and earned my Associates degree from 2005-2008. When completed I decided that I wanted to go away to college to live on campus, so I moved upstate to Pace University in Westchester and graduated with a bachelors degree in Technology Systems. It has taken a lot of determination and hard work to get where I am today. This does not count all of the surgeries that I had to have. </p>
+				<p>I am presently living in Manhattan on my own going to Pace University and going for my Masters degree in Computer Science. Going out and telling my story is very important to me for I feel that no one should have to go through what I went through, and if I can prevent just <span class="red">one person </span> from making the same mistake, well then I did a great job, I can say that I saved someones life. </p>
+
+
+
+
+
+			</div>
+
+
+	</div>
+	<br class="clear"/>
+<div class="copy">
+	Chris Memoli © 2014
+</div>	
+</body>
+</html>

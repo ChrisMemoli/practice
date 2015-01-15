@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="html/css" href="css/stylesheet.css"/>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/memoli2.ioc.png">
+
+
+	<script language="JavaScript1.1">
+	
+	/*
+	JavaScript Image slideshow:
+	*/
+
+ 	var slideimages=new Array()
+	var slidelinks=new Array()
+	function slideshowimages(){
+	for (i=0;i<slideshowimages.arguments.length;i++){
+	slideimages[i]=new Image()
+	slideimages[i].src=slideshowimages.arguments[i]
+	}
+	}
+
+	function slideshowlinks(){
+	for (i=0;i<slideshowlinks.arguments.length;i++)
+	slidelinks[i]=slideshowlinks.arguments[i]
+	}
+
+	function gotoshow(){
+	if (!window.winslide||winslide.closed)
+	winslide=window.open(slidelinks[whichlink])
+	else
+	winslide.location=slidelinks[whichlink]
+	winslide.focus()
+	}
+
+	//-->
+	</script>
+
+	
+<title>Contact Me</title>
+</head>
+<body>
+	<div id="wrapper">
+			<div class="head">
+				<img src="images/educating.png" height="305px" width="323px">
+				
+					<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border=0 width=620 height=305></a>
+		<script>
+									<!--
+
+						slideshowimages("images/avill.jpg", "images/lakes.jpg", "images/conference.PNG", "images/upstate.PNG", "images/grad_mom.jpg", "images/lifeSup.jpg", "images/memmom.jpg", "images/re/family.jpg","images/car2.jpg", "images/car.jpg","images/coma1.jpg","images/fly.jpg")
+									var slideshowspeed=2000
+
+									var whichlink=0
+									var whichimage=0
+									function slideit(){
+									if (!document.images)
+									return
+									document.images.slide.src=slideimages[whichimage].src
+									whichlink=whichimage
+									if (whichimage<slideimages.length-1)
+									whichimage++
+									else
+									whichimage=0
+									setTimeout("slideit()",slideshowspeed)
+									}
+									slideit()
+
+									//-->
+		</script>
+			</div>
+				
+					<ul id="menu">
+					 <li><a href="index.html">Home</a></li>
+					 <li><a href="my_life.html">My Story</a></li>
+					 <li><a href="whatIdo.html">What I Do</a></li>
+					 <li><a href="How it affected family.html">How It Affected Family</a></li>
+					 <li><a href="Photos.html">Photos</a></li>
+					 <li><a href="press.html">Press</a></li>
+					 <li><a href="http://www.thechrismemolistory.com">Testimonials</a></li>
+					 <li><a href="Contact.html">Contact</a></li>
+					</ul>
+			
+	
+			<div class="content">
+									<h1> Contact Me </h1>
+					
+
+					
+<div class="underimage">
+	<a href="images/car.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/car.jpg"width="150" height="150" />
+		<div>Truck</div>
+	</a>
+</div>
+
+<div class="underimage">
+	<a href="images/car2.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/car2.jpg"width="150" height="150" />
+		<div>Truck</div>
+	</a>
+</div>
+
+
+
+<div class="underimage">
+	<a href="images/coma.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/coma.jpg"width="150" height="150" />
+		<div>Coma</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/lifeSup.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/lifeSup.jpg"width="150" height="150" /> 
+		<div>Life Support</div>
+	</a>
+</div>
+
+
+
+<div class="underimage">
+	<a href="images/grad_mom.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/grad_mom.jpg"width="150" height="150" />
+		<div>2010 Graduation</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/lombardo.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/lombardo.jpg"width="150" height="150" />
+		<div>Me and Rob NYC</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/fly.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/fly.jpg"width="150" height="150" />
+		<div>Graduation</div>
+	</a>
+</div>
+
+<div class="underimage">
+	<a href="images/xmas 2010.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/xmas 2010.jpg"width="150" height="150" />
+		<div>Christmas2010</div>
+	</a>
+</div>
+
+
+
+<div class="underimage">
+	<a href="images/sylwia.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/sylwia.jpg"width="150" height="150" />
+		<div>Me and Sylwia</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/princess.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/princess.jpg"width="150" height="150" /> 
+		<div>Island in Brazil</div>
+	</a>
+</div>
+
+
+
+<div class="underimage">
+	<a href="images/jesus.JPG" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/jesus.JPG"width="150" height="150" />
+		<div>Statue In Rio</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/me and syl.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/me and syl.jpg"width="150" height="150" />
+		<div>Me and Sylwia</div>
+	</a>
+</div>
+
+<div class="underimage">
+	<a href="images/brazilsky.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/brazilsky.jpg"width="150" height="150" />
+		<div>Island Hopping</div>
+	</a>
+</div>
+
+<div class="underimage">
+	<a href="images/brazil2.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/brazil2.jpg"width="150" height="150" />
+		<div>Relaxing</div>
+	</a>
+</div>
+
+
+
+<div class="underimage">
+	<a href="images/3fly.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/3fly.jpg"width="150" height="150" />
+		<div>Family</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/jewfam.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/jewfam.jpg"width="150" height="150" /> 
+		<div>At a Wedding</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/fl.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/fl.jpg"width="150" height="150" />
+		<div>Marco Island</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/kris.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/kris.jpg"width="150" height="150" />
+		<div>Gotham50 NYC</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/whitey.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/whitey.jpg"width="150" height="150" /> 
+		<div>Long Beach</div>
+	</a>
+</div>
+<div class="underimage">
+	<a href="images/laura.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/laura.jpg"width="150" height="150" /> 
+		<div>Me and Laura</div>
+	</a>
+</div>
+<div class="underimage">
+	<a href="images/alyssa.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/alyssa.jpg"width="150" height="150" /> 
+		<div>Me and Alyssa</div>
+	</a>
+</div>
+
+<div class="underimage">
+	<a href="images/mehill.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/mehill.jpg"width="150" height="150" /> 
+		<div>Award Ceremony</div>
+	</a>
+</div>
+<div class="underimage">
+	<a href="images/memmom.jpg" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/memmom.jpg"width="150" height="150" /> 
+		<div>Award Ceremony</div>
+	</a>
+</div>
+
+
+<div class="underimage">
+	<a href="images/AZ.JPG" rel="lightbox[roadtrip]"id="Diagram">
+		<img src="images/AZ.JPG"width="150" height="150" /> 
+		<div>AZ 2013 </div>
+	</a>
+</div>
+
+
+			</div>
+
+
+	</div>
+	<br class="clear"/>
+<div class="copy">
+	Chris Memoli © 2014
+</div>	
+</body>
+</html>

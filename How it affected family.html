@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="html/css" href="css/stylesheet.css"/>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/memoli2.ioc.png">
+
+
+	<script language="JavaScript1.1">
+	
+	/*
+	JavaScript Image slideshow:
+	*/
+
+ 	var slideimages=new Array()
+	var slidelinks=new Array()
+	function slideshowimages(){
+	for (i=0;i<slideshowimages.arguments.length;i++){
+	slideimages[i]=new Image()
+	slideimages[i].src=slideshowimages.arguments[i]
+	}
+	}
+
+	function slideshowlinks(){
+	for (i=0;i<slideshowlinks.arguments.length;i++)
+	slidelinks[i]=slideshowlinks.arguments[i]
+	}
+
+	function gotoshow(){
+	if (!window.winslide||winslide.closed)
+	winslide=window.open(slidelinks[whichlink])
+	else
+	winslide.location=slidelinks[whichlink]
+	winslide.focus()
+	}
+
+	//-->
+	</script>
+
+	
+<title>Contact Me</title>
+</head>
+<body>
+	<div id="wrapper">
+			<div class="head">
+				<img src="images/educating.png" height="305px" width="323px">
+				
+		<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border=0 width=620 height=305></a>
+		<script>
+		<!--
+
+		slideshowimages("images/avill.jpg", "images/lakes.jpg", "images/conference.PNG", "images/upstate.PNG", "images/grad_mom.jpg", "images/lifeSup.jpg", "images/memmom.jpg", "images/re/family.jpg","images/car2.jpg", "images/car.jpg","images/coma1.jpg","images/fly.jpg")
+		var slideshowspeed=2000
+
+		var whichlink=0
+		var whichimage=0
+		function slideit(){
+		if (!document.images)
+		return
+		document.images.slide.src=slideimages[whichimage].src
+		whichlink=whichimage
+		if (whichimage<slideimages.length-1)
+		whichimage++
+		else
+		whichimage=0
+		setTimeout("slideit()",slideshowspeed)
+		}
+		slideit()
+
+		//-->
+		</script>
+				</div>
+				
+					<ul id="menu">
+					 <li><a href="index.html">Home</a></li>
+					 <li><a href="my_life.html">My Story</a></li>
+					 <li><a href="whatIdo.html">What I Do</a></li>
+					 <li><a href="How it affected family.html">How It Affected Family</a></li>
+					 <li><a href="Photos.html">Photos</a></li>
+					 <li><a href="press.html">Press</a></li>
+					 <li><a href="http://www.thechrismemolistory.com">Testimonials</a></li>
+					 <li><a href="Contact.html">Contact</a></li>
+				</ul>
+			
+			<div class="content">
+<h1><center> How it affected family! </h1><center/>
+					
+					<p>&nbsp;&nbsp;&nbsp;As a mother and also a parent,  I feel that this message is vital to get out to all  teens and adults. Living through this horrific time in our life was very difficult. Imagine getting a phone call at 5:50 AM from one of your children's friends telling you that you must get to the hospital quickly because there was a car accident and one of your children is hurt badly. I remember standing in the emergency room listening to the neurologist tell me that my son is in a coma and has severe head injury. We will need to wait and see if he makes it through the first twenty-four hours. I remember standing next to his hospital bed in the Intensive Care Unit and just crying and praying that he would survive. Just looking at your child hooked up to life support, tubes everywhere, monitors beeping all day and knowing as a parent it is out of your hands, there is nothing that you can do. You feel so helpless, this cant be! You are his mother the one who is suppose to help your child and fix everything. This was just the beginning of a very long road to recovery.</p>
+                                         
+					<p>&nbsp;&nbsp;&nbsp;			No one realizes how something like this effects the whole family. For over two years his family and friends came to the hospital daily to visit and help Chris through this very difficult and confusing time. During the day between therapy I would play his music, talk and read to him. In the evening his brother would come and spend hours with him looking at pictures, watching movies and listening to music. Through the past 9 years Chris has had many surgeries and years of rehabilitation which has effected the whole family. I was fortunate to be able to take a leave of absence during his hospital stay and time off for multiple surgeries.<p/>
+                                         
+			                             
+			</div>
+
+
+	</div>
+	<br class="clear"/>
+<div class="copy">
+	Chris Memoli © 2014
+</div>	
+</body>
+</html>

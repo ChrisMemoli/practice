@@ -1,0 +1,74 @@
+.header{
+padding:0px;
+margin:0px ;
+padding-bottom:45px;
+}
+#wrapper{
+padding:0px;
+border:4px black;
+margin:-10px 100px ;
+background:black;
+padding-bottom:45px;
+height:1000px;
+background-image:url('../images/line1.jpg');
+background-repeat:;
+background-attachment:fixed;
+color: #000000;
+
+}
+.copy{
+	color:white;
+	text-align:center;
+}
+.whatIdo{
+	margin-top:369px;
+	color:white;
+	text-align:center;
+	padding:20px 65px;
+}
+
+body 
+{
+	background-image:url('../images/gl.jpg');
+	background-repeat:repeat;
+	background-attachment:fixed;
+	color: #000000;
+}
+.story{
+	border:white 3px solid;
+	padding:10px 110px;
+	font=size:18px;
+	text-align:center;
+	background-color:black;
+}
+p{color:white;}
+.ytube{
+	color:white;
+	float:right;
+	margin:0px;
+	padding-right:240px;
+}
+/*link box*/
+ul#menu {
+	padding-left:100px;    
+	padding-top: 20px;
+	}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: red;
+} 
+
+
+

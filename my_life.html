@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="html/css" href="css/stylesheet.css"/>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/memoli2.ioc.png">
+
+
+	<script language="JavaScript1.1">
+	
+	/*
+	JavaScript Image slideshow:
+	*/
+
+ 	var slideimages=new Array()
+	var slidelinks=new Array()
+	function slideshowimages(){
+	for (i=0;i<slideshowimages.arguments.length;i++){
+	slideimages[i]=new Image()
+	slideimages[i].src=slideshowimages.arguments[i]
+	}
+	}
+
+	function slideshowlinks(){
+	for (i=0;i<slideshowlinks.arguments.length;i++)
+	slidelinks[i]=slideshowlinks.arguments[i]
+	}
+
+	function gotoshow(){
+	if (!window.winslide||winslide.closed)
+	winslide=window.open(slidelinks[whichlink])
+	else
+	winslide.location=slidelinks[whichlink]
+	winslide.focus()
+	}
+
+	//-->
+	</script>
+
+	
+<title>Contact Me</title>
+</head>
+<body>
+	<div id="wrapper">
+			<div class="head">
+				<img src="images/educating.png" height="305px" width="323px">
+				
+		<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border=0 width=620 height=305></a>
+		<script>
+		<!--
+
+		slideshowimages("images/avill.jpg", "images/lakes.jpg", "images/conference.PNG", "images/upstate.PNG", "images/grad_mom.jpg", "images/lifeSup.jpg", "images/memmom.jpg", "images/re/family.jpg","images/car2.jpg", "images/car.jpg","images/coma1.jpg","images/fly.jpg")
+		var slideshowspeed=2000
+
+		var whichlink=0
+		var whichimage=0
+		function slideit(){
+		if (!document.images)
+		return
+		document.images.slide.src=slideimages[whichimage].src
+		whichlink=whichimage
+		if (whichimage<slideimages.length-1)
+		whichimage++
+		else
+		whichimage=0
+		setTimeout("slideit()",slideshowspeed)
+		}
+		slideit()
+
+		//-->
+		</script>
+				</div>
+				
+					<ul id="menu">
+					 <li><a href="index.html">Home</a></li>
+					 <li><a href="my_life.html">My Story</a></li>
+					 <li><a href="whatIdo.html">What I Do</a></li>
+					 <li><a href="How it affected family.html">How It Affected Family</a></li>
+					 <li><a href="Photos.html">Photos</a></li>
+					 <li><a href="press.html">Press</a></li>
+					 <li><a href="http://www.thechrismemolistory.com">Testimonials</a></li>
+					 <li><a href="Contact.html">Contact</a></li>
+				</ul>
+			
+	
+			<div class="content">
+
+<div class="contentH">My life</div>
+
+
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;     I have been going out to different schools in New York and New Jersey for over nine years trying to get my message out. I feel that it is so important for teens and young adults to see what I have gone through and what challenges I have on a daily basis. I can relate to them because I was young and wild when my life changed. It is amazing to sit and listen to some of the questions that they ask after the presentation. Usually it takes a little to get them started but when they do start asking questions it opens up a flood of discussions. The questions can range from what was the hardest part of your recovery to how do you feel when people look at me differently. I am very honest and do not have a problem with any question I may be asked. The wonderful part of this is that afterwards so many of the students come up to me and thank me for having the courage to get out there in front of everyone and tell my story. They are amazed that I did not give up and continues to work at getting better.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;		Without my speech it may take a minute or so to answer some of the questions, so they get to see what we all take for granted and what I struggle with. I also feel that it is healing to be able to speak to an audience and let them understand what I have been through and how difficult some of my challenges may be.</p>
+	 <p>&nbsp;&nbsp;&nbsp;&nbsp;    There have been times outside of the presentation when students from the presentation will approach me and thank me for opening their eyes to what can really happen. The student will say I always wear my seat belt after attending your presentation. You never know if all are paying attention or if what you have to say effects them, but maybe just one student will walk away and take the time to think about their actions.</p>
+	 <p>&nbsp;&nbsp;&nbsp;&nbsp;    I honestly feel that I have made a difference in some of the people I have met along the way giving my presentations. What better way for them to understand that there are consequences to every decision then to see me, and my everyday struggles for themselves</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;   I have recently moved down to Miami, Florida but continue to present along the East Coast. I am looking to expand my presentations through out the United States. </p>
+			
+			</div>
+
+
+	</div>
+	<br class="clear"/>
+<div class="copy">
+	Chris Memoli © 2014
+</div>	
+</body>
+</html>
